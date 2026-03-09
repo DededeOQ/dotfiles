@@ -1,0 +1,15 @@
+[window]
+padding = { x = 10, y = 10}
+opacity = 0.9
+title = "Alacritty - Mint"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold"}
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic"}
+size = 11.0
+
+[colors.primary]
+background = "#1e1e2e" # Estilo Catppuccin para que combine con Nvim
+foreground = "#cdd6f4"
+
