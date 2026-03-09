@@ -23,3 +23,17 @@ mkdir -p ~/.config/alacritty
 # Copy config from this repo
 cp ~/dotfiles/alacritty/alacritty.toml ~/.config/alacritty/
 ```
+
+### Font: JetBrainsMono Nerd Font
+Essential for Neovim icons and terminal aesthetics.
+
+```bash
+# Create fonts directory
+mkdir -p ~/.local/share/fonts
+# Download and install
+cd /tmp
+curl -OL [https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz)
+tar -xvf JetBrainsMono.tar.xz -C ~/.local/share/fonts
+# Refresh cache
+fc-cache -fv
+```
