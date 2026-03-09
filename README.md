@@ -10,5 +10,4 @@ A collection of my personal configuration files managed with **GNU Stow**.
 
 ## 🚀 Installation
 1. Clone the repo: `git clone https://github.com/DededeOQ/dotfiles.git ~/dotfiles`
-2. Install GNU Stow.
-3. Apply a config (e.g., nvim): `cd ~/dotfiles && stow nvim`
+2. Install Lua (lua5.4)
