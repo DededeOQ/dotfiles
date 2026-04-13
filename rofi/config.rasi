@@ -1,0 +1,10 @@
+configuration {
+    modi:   "drun, run, window";
+    show-icons: true;
+    icon-theme: "Papirus";
+    font:   "JetBrains Mono Nerd Font 10";
+    lines: 8;
+    width: 35;
+}
+
+@theme "catppuccin-mocha"

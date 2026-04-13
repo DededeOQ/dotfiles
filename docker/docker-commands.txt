@@ -1,0 +1,5 @@
+# para iniciar mi instancia en docker 
+docker compose up -d
+
+# Para conectarme a Mysql
+docker exec -it mysql-cotainer mysql -u kaizzen -p
