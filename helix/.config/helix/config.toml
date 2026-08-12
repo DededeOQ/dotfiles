@@ -1,0 +1,32 @@
+# Tema visual
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"	# Números de línea relativos (ideal para saltos de líneas)
+mouse = true			# Soporte para mouse
+cursorline = true		# Resaltar la línea actual
+auto-pairs = true		# Autocompletar llaves, corchetes y comillas
+bufferline = "multiple"		# Mostrar pestañas de archivos abiertos arriba
+color-modes = true		# Cambiar color de la barra de estado según el modo
+
+[editor.cursor-shape]
+insert = "bar"			# Barra vertical en modo Insertar
+normal = "block"		# Bloque en modo Normal
+select = "underline"		# Subrayado en modo Selección
+
+
+[editor.file-picker]
+hidden = false			# Mostrar archivos ocultos en la busqueda (ej. .gitingnore)
+
+[editor.lsp]
+display-messages = true 		# Mostrar mensajes de advertencias/error de LSP
+display-inlay-hints = true	# Mostrar tipos de variables sugeridos en pantalla
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "file-modification-indicator"]
+center = []
+right = ["diagnostics", "selections", "position", "file-type"]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
