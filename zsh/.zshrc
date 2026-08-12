@@ -48,6 +48,7 @@ zstyle ':completion:*' menu select
 alias ls='eza --icons --group-directories-first'
 alias ll='eza -la --icons --group-directories-first'
 alias tree='eza --tree --icons'
+alias mdcat='glow -s dark'
 
 # Navegación inteligente (Zoxide reemplaza 'cd')
 eval "$(zoxide init zsh)"
