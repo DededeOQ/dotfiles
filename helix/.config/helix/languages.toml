@@ -1,3 +1,10 @@
+# Ejemplo por si quieres forzar o personalizar un LSP específico.
+
 [[language]]
-name = "rust"
-  auto-format = false # Desactiva el formateo automatico al guardar.
+name = "python"
+language-servers = [ "pyright" ]
+auto-format = true
+
+[[language]]
+name = "tsx"
+auto-format = true

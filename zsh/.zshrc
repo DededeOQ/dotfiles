@@ -68,3 +68,8 @@ zstyle ':fzf-tab:*' fzf-flags --preview-window=right:50%:wrap
 
 # 2. Activar la vista previa con eza para cd, z y navegaciones
 zstyle ':fzf-tab:complete:(cd|z):*' fzf-preview 'eza -1 --color=always $realpath'
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export GOTOOLCHAIN=auto
+export PATH="$HOME/.local/bin:$PATH"

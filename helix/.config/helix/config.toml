@@ -8,12 +8,15 @@ cursorline = true		# Resaltar la línea actual
 auto-pairs = true		# Autocompletar llaves, corchetes y comillas
 bufferline = "multiple"		# Mostrar pestañas de archivos abiertos arriba
 color-modes = true		# Cambiar color de la barra de estado según el modo
+completion-timeout = 100 # Baja el tiempo de espera para el autocompletado
 
 [editor.cursor-shape]
 insert = "bar"			# Barra vertical en modo Insertar
 normal = "block"		# Bloque en modo Normal
 select = "underline"		# Subrayado en modo Selección
 
+[editor.soft-wrap]
+enable = true # Hace un salto de linea cuando llega al borde de la pantalla (solo visual)
 
 [editor.file-picker]
 hidden = false			# Mostrar archivos ocultos en la busqueda (ej. .gitingnore)
